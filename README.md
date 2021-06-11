@@ -5,7 +5,7 @@ Backend created to simulate pet registrations, in order to be evaluated in the W
 ### Prerequisites
 
 Before starting, you will need to have the following tools installed on your machine:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [Insomnia Rest](https://insomnia.rest/). 
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/),[MongoDB](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/), [Insomnia Rest](https://insomnia.rest/). 
 
 ### 🎲 Running Backend 
 
