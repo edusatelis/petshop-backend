@@ -11,7 +11,7 @@ Before starting, you will need to have the following tools installed on your mac
 
 ```bash
 # Clone this repository
-$ git clone <https://github.com/tgmarinho/nlw1>
+$ git clone https://github.com/edusatelis/petshop-backend
 
 # Install dependencies
 $ npm install
