@@ -1,6 +1,6 @@
 # PetShop
 
-##Backend created to simulate pet registrations, in order to be evaluated in the Web Programming course at the Federal University of Mato Grosso do Sul - UFMS CPTL
+Backend created to simulate pet registrations, in order to be evaluated in the Web Programming course at the Federal University of Mato Grosso do Sul - UFMS CPTL
 
 ### Prerequisites
 
