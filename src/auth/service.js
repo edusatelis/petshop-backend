@@ -50,7 +50,7 @@ const authService = {
 
     async getById(_id){
         try {
-            const pet = await petModel.findById({_id});
+            const pet = await petModel.findById(_id);
             if(!pet){
                 throw new Error('pet not found!');
             }else{
@@ -67,6 +67,15 @@ const authService = {
                 {_id},
                 {$set: body},
                 { new: true})
+        } catch (error) {
+            throw new Error(error);
+        }
+    },
+
+    async deletePet(_id){
+        try {
+            return await petModel.findByIdAndRemove(_id)
+
         } catch (error) {
             throw new Error(error);
         }

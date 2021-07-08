@@ -42,10 +42,22 @@ async function updatePet(req,res){
     }
 }
 
+async function deletePet(req,res){
+    try {
+        const deleta = await authSrv.deletePet(req.params.id);
+        if(deleta)
+            res.status(200).json(deleta);
+    } catch (error) {
+            res.status(400).json(error.message);
+    }
+}
+
+
 
 module.exports = {
     register,
     getAllPets,
     getPet,
-    updatePet
+    updatePet,
+    deletePet
 }

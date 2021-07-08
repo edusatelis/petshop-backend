@@ -7,6 +7,8 @@ AuthRouter.post('/register', AuthSrv.register);
 AuthRouter.get('/pets', AuthSrv.getAllPets);
 AuthRouter.get('/pets/:id', AuthSrv.getPet);
 AuthRouter.put('/pets/:id', AuthSrv.updatePet);
+AuthRouter.delete('/pets/:id', AuthSrv.deletePet);
+
 
 
 
