@@ -3,13 +3,13 @@ require('./config/connections/database');
 
 const Routes = require('./routes');
 const express = require('express');
+const cors = require('cors');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-
+app.use(cors())
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
-
 Routes.init(app);
 
 app.get('/', (req,res)=>{
