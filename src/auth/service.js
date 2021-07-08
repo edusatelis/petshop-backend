@@ -7,6 +7,7 @@ const authService = {
             const pet = new petModel({
                 ownerName: body.ownerName,
                 ownerCpf: body.ownerCpf,
+                petName: body.petName,
                 breedDog: body.breedDog,
                 yearBirth: body.yearBirth,
                 img: body.img
